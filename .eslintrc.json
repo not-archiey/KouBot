@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": false,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-console":"off",
+        "no-restricted-syntax":"off",
+        "import/no-unresolved":"off",
+        "import/extensions":"off",
+        "no-array-constructor":"off",
+        "no-await-in-loop":"off",
+        "no-continue":"off",
+        "no-plusplus":"off",
+        "prefer-destructuring":"off",
+        "no-unused-expressions":"off",
+        "@typescript-eslint/no-non-null-assertion":"off",
+        "@typescript-eslint/ban-types":"off",
+        "@typescript-eslint/no-non-null-asserted-optional-chain":"off",
+        "class-methods-use-this":"off",
+        "radix":"off"
+    }
+}
